@@ -9,7 +9,7 @@ public class Application {
         Calculator calculator = new Calculator();
 
         //TODO 만든 연산자 등록
-        //calculator.registerOperator(....);
+        calculator.registerOperator(new Divide());
 
         String operatorOptions = calculator.describeAllOperators();
 
